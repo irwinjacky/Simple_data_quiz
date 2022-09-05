@@ -3,6 +3,12 @@ Weight = 60
 Height = 1.58
 #Susan's height in meters
 BMI = Weight/(Height * Height)
+# uses the weight and height variable to find the BMI
+BMI = round(BMI, 2)
+#Rounds Susan's BMI to the nearest 100th place
 print(BMI)
-txt = "Susan's BMI is {}"
+#Prints the value of Susan's BMI
+txt = "Susan has a BMI of {}"
+#sets up the text to give information in a format of a sentence
 print(txt.format(BMI))
+#Prints sentence out.
