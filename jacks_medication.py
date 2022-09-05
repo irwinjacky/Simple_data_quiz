@@ -1,7 +1,8 @@
-Medication = 5
 # stores the interger value of 5 in variable Medication
-print(type(Medication))
+Medication = 5
 """
 line three is supposed to print the type of value stored into
 the variable Medication
+<class 'int'>
 """
+print(type(Medication))
